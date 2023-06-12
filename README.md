@@ -2,6 +2,10 @@
 
 ................................................................
 
+Using CSS/Sass styles in globals.css, which I then move into separate style.scss files for each component.
+
+All types are defined as interfaces in the folder `/types/index.ts`
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
