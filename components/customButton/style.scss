@@ -1,9 +1,5 @@
 @import '/public/variables/styleVariables.scss';
 
-.custom-btn {
-    @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none;
-}
-
 #custom-btn {
     cursor: pointer;
     position: relative;
