@@ -8,9 +8,10 @@ import './style.scss'
 const CustomButton = ({ title, containerStyles, handleClick }: CustomButtonProps) => {
     return (
         <button
+            id="custom-btn"
             disabled={false}
             type={'button'}
-            className={`custom-btn ${containerStyles}`}
+            className={`mb-6 custom-btn ${containerStyles}`}
             onClick={handleClick}
         >
             <span className={`flex-1`}>{title}</span>
