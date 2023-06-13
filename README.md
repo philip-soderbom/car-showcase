@@ -1,6 +1,15 @@
 # Project description
 
-................................................................
+In this project, Next JS 13 is used with TypeScript to build a web app for a car showcase firm.
+
+This project includes the following:
+
+- Next.js 13
+- TypeScript
+- Tailwind CSS
+- Sass
+  - `npm i sass`
+- Fetching data from API: https://rapidapi.com/
 
 Using CSS/Sass styles in globals.css, which I then move into separate style.scss files for each component.
 
