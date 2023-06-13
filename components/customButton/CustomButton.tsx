@@ -5,13 +5,13 @@ import { CustomButtonProps } from "@/types"
 
 import './style.scss'
 
-const CustomButton = ({ title, containerStyles, handleClick }: CustomButtonProps) => {
+const CustomButton = ({ title, containerStyles, handleClick, btnType }: CustomButtonProps) => {
     return (
         <button
-            id="custom-btn"
+            id={containerStyles ? "" : "custom-btn"}
             disabled={false}
-            type={'button'}
-            className={`mb-6 custom-btn ${containerStyles}`}
+            type={btnType || "button"}
+            className={`custom-btn ${containerStyles}`}
             onClick={handleClick}
         >
             <span className={`flex-1`}>{title}</span>
