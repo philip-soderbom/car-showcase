@@ -11,7 +11,7 @@ This project includes the following:
   - `npm i sass`
 - Fetching data from API: https://rapidapi.com/
 
-Most styling is done in globals.css (which also handles responsive UI), but for smaller components like the `<CustomButton />` compoenent, Sass is used in a separate style sheet style.scss in the same folder as the component itself.
+Most styling is done in globals.css (which also handles responsive UI), but for smaller components like the `<CustomButton />` component, Sass is used in a separate style sheet style.scss in the same folder as the component itself.
 
 All types are defined as interfaces in the folder `/types/index.ts`
 
