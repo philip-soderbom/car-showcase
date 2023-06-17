@@ -73,7 +73,7 @@ const CarCard = ({ car }: CarCardProps) => {
                 </div>
             </div>
 
-            <CarDetails />
+            {/* <CarDetails /> */}
         </div>
     )
 }
