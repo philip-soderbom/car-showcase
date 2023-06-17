@@ -10,6 +10,7 @@ This project includes the following:
   - Headless UI: `npm install @headlessui/react`
 - Sass: `npm i sass`
 - Fetching data from API: https://rapidapi.com/
+  - Cars by API-Ninjas to get car data
 
 Most styling is done in globals.css (which also handles responsive UI), but for smaller components like the `<CustomButton />` component, Sass is used in a separate style sheet style.scss in the same folder as the component itself.
 
