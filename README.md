@@ -7,8 +7,11 @@ This project includes the following:
 - Next.js 13
 - TypeScript
 - Tailwind CSS
-  - Headless UI: `npm install @headlessui/react`
 - Sass: `npm i sass`
+- Headless UI: https://headlessui.com
+  - Installation: `npm install @headlessui/react`
+  - Combobox
+  - Transition
 - Fetching data from API: https://rapidapi.com/
   - Cars by API-Ninjas to get car data
 
