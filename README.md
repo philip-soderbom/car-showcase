@@ -12,8 +12,9 @@ This project includes the following:
   - Installation: `npm install @headlessui/react`
   - Combobox
   - Transition
-- Fetching data from API: https://rapidapi.com/
-  - Cars by API-Ninjas to get car data
+- Fetching data from API:
+  - Cars by API-Ninjas to get car data, via https://rapidapi.com/
+  - Car images via https://www.imagin.studio/car-image-api
 
 Most styling is done in globals.css (which also handles responsive UI), but for smaller components like the `<CustomButton />` component, Sass is used in a separate style sheet style.scss in the same folder as the component itself.
 
