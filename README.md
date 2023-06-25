@@ -12,6 +12,7 @@ This project includes the following:
   - Installation: `npm install @headlessui/react`
   - Combobox
   - Transition
+  - Listbox
 - Fetching data from API:
   - Cars by API-Ninjas to get car data, via https://rapidapi.com/
   - Car images via https://www.imagin.studio/car-image-api
